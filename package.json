@@ -1,0 +1,36 @@
+{
+  "name": "taliwind-docs",
+  "title": "Taliwind Docs",
+  "description": "Search the Taliwind documentation",
+  "icon": "tailwind.png",
+  "author": "smcassar",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "index",
+      "title": "Tailwind Docs",
+      "subtitle": "",
+      "description": "Search the Tailwindcss documentation straight from Raycast",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.25.0",
+    "algoliasearch": "^4.10.5",
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "~16.10.0",
+    "@types/react": "^17.0.28",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "react-devtools": "^4.19.2",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop"
+  }
+}
