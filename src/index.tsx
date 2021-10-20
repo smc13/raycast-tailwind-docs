@@ -88,7 +88,6 @@ async function fetchDocs(index: SearchIndex, query?: string | null): Promise<{ [
       distinct: 1,
     });
     const filtered = response.hits.reduce((c, hit) => {
-      console.log(hit)
       const url = hit.url;
       const section = hit.hierarchy["lvl0"];
       const title = hit.hierarchy[hit.type];
