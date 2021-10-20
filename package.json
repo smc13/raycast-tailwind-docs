@@ -1,7 +1,7 @@
 {
-  "name": "taliwind-docs",
-  "title": "Taliwind Docs",
-  "description": "Search the Taliwind documentation",
+  "name": "tailwind-docs",
+  "title": "Tailwind Docs",
+  "description": "Search the Tailwind documentation",
   "icon": "tailwind.png",
   "author": "smcassar",
   "license": "MIT",
