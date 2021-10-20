@@ -116,7 +116,9 @@ async function fetchDocs(index: SearchIndex, query?: string | null): Promise<{ [
         c[section] = [];
       }
 
-      c[section].push(d);
+      if (c[section].length < 5) {
+        c[section].push(d);
+      }
       return c;
     }, {} as { [key: string]: Document[] });
   } catch (error) {
